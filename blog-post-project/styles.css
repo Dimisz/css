@@ -42,6 +42,7 @@ h1 {
   font-size: 80px;
   font-weight: 400;
   letter-spacing: -1.5px;
+  margin: 0;
 }
 
 h2 {
@@ -117,4 +118,27 @@ footer ul li a {
 
 footer ul li a:hover {
   text-decoration: underline;
+}
+
+.hero {
+  background-color: #863ae8;
+  height: 100vh;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1, .hero p {
+  width: 75%;
+  max-width: 900px;
+  margin: 16px 0;
+}
+
+.hero hr {
+  width: 70%;
+  margin: 32px 0;
 }
